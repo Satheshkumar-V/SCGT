@@ -5,7 +5,7 @@ app = Flask(__name__)
 def parse_logs():
     log = request.json.get("logData", "")
     return jsonify({
-        "contact_name": "John Doe",
+        "contact_name": "Satheshkumar",
         "role": "Researcher",
         "interaction_type": "email",
         "summary": "Discussion about AI trends",
